@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">myClickApp</string>
+    <string name="enter_text">Enter Text</string>
+    <string name="click_me">Click me</string>
+    <string name="given_text">-------------</string>
+    <string name="clear">clear</string>
+</resources>
