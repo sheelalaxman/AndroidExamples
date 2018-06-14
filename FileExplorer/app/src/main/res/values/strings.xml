@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FileExplorer</string>
+
+    <string-array name="choice">
+        <item>Internal storage</item>
+        <item>SD card</item>
+    </string-array>
+</resources>
