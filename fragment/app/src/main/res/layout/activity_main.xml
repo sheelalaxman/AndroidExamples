@@ -20,6 +20,7 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -28,9 +29,11 @@
                 android:text="Home"
                 android:textColor="#ffffff"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="load"/>
 
             <Button
+                android:id="@+id/courses"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -39,9 +42,11 @@
                 android:text="Courses"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="load"/>
 
             <Button
+                android:id="@+id/materials"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
@@ -50,7 +55,8 @@
                 android:text="Materials"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:onClick="load"/>
 
 
             <Button
@@ -115,11 +121,12 @@
     </HorizontalScrollView>
 
     <fragment
-        android:id="@+id/frag1"
-        android:name="com.laxman.HomeFrag"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.8" />
+        android:layout_weight="0.8"
+        android:id="@+id/frag1"
+        android:name="com.laxman.HomeFrag"/>
+
 
     <TextView
         android:layout_width="match_parent"
