@@ -21,9 +21,10 @@ class LoginFrag: Fragment()
         }
         v.findViewById<Button>(R.id.register).setOnClickListener {
 
-            Toast.makeText(activity,"Register page is on progress",Toast.LENGTH_LONG).show()
-
-
+            var fragment = fragmentManager
+            var tran =fragment.beginTransaction()
+            tran.replace(R.id.frag1,RegisterFrag())
+            tran.commit()
         }
         return v!!
     }
