@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">expensemanager</string>
+    <string-array name="types">
+        <item>Select</item>
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+</resources>
